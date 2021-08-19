@@ -1,7 +1,5 @@
 import json
 import tweepy
-from termcolor import colored
-
 
 class Tweeter:
     def __init__(self):
