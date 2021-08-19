@@ -17,7 +17,6 @@ class Tweeter:
         auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 
         self.api = tweepy.API(auth)
-        self.callsign = colored('[Tweeter]', 'cyan') + ': '
 
     def save(self, message):
         with open('temp.txt', 'w') as f:
