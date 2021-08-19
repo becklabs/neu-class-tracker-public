@@ -17,7 +17,7 @@ def makeRequest(subject, courseNumber):
       'Sec-Fetch-Dest': 'empty',
       'Referer': 'https://nubanner.neu.edu/StudentRegistrationSsb/ssb/courseSearch/courseSearch',
       'Accept-Language': 'en-US,en;q=0.9',
-      'Cookie': 'JSESSIONID=57FE8F812FC89BF650F71DD428973DC7; nubanner-cookie=2334073243.36895.0000; _ga=GA1.2.981078370.1629321202; _gid=GA1.2.955840964.1629321202; _gat_Ellucian=1; JSESSIONID=10653135818C21523D3F07ABD3339F6D; nubanner-cookie=2334073243.36895.0000'
+      'Cookie': 'JSESSIONID={ID}; nubanner-cookie=2334073243.36895.0000; _ga=GA1.2.981078370.1629321202; _gid=GA1.2.955840964.1629321202; _gat_Ellucian=1; JSESSIONID=10653135818C21523D3F07ABD3339F6D; nubanner-cookie=2334073243.36895.0000'
   }
 
   response = requests.request("GET", url, headers=headers, data={})
